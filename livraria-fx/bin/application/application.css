@@ -1,0 +1,29 @@
+/* Label que todas vão ter fonte Helvetica */
+.label{
+	-fx-font-family: Helvetica;
+}
+#label-listagem{
+	-fx-font-size: 30.0px;
+	-fx-padding: 20.0 0.0 10.0 10.0;
+}
+#label-progresso{
+	-fx-translate-x: 485;
+	-fx-translate-y: 30;
+}
+#label-footer{
+	-fx-font-size: 15px;
+	-fx-translate-x: 210;
+	-fx-translate-y: 480;
+} /*caixa onde fica a table */
+#vbox{
+	-fx-padding: 70.0 0.0 0.0 10.0; /*padding */
+} /*botão de exportar CSV */
+.button{
+	-fx-translate-x: 575.0;/*ponto x */
+	-fx-translate-y: 25.0; /*ponto y */
+	-fx-background-color: rgb(31.0,149.0,206.0); /*background */
+	-fx-text-fill: white; /*texto branco*/
+}
+.button:hover{
+	-fx-background-color: rgba(31.0,149.0,206.0,0.71);
+}
